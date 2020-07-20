@@ -10,29 +10,98 @@
     <![endif]-->
 
     <title>Mod2 by yvonne0922</title>
+
+
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+h1{
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:1.75em;
+}
+
+.row{
+	width:100%;
+}
+
+ @media (min-width:992px){
+ 	section{
+ 		float:left;
+ 		width:30%;
+ 	}
+      }
+      
+      @media (min-width:768px) and (max-width:991px){
+      	section{
+ 		float:left;
+ 		width:45%;
+ 	}
+ 	#sushi{
+ 		width:90%;
+ 	}
+      }
+      
+      @media (max-width:767px){
+      	section{
+ 		float:left;
+ 	}
+      }
+
+      section{
+      	border-style: solid;
+      	border-color:black;
+      	border-width:1px;
+      	background-color:grey;
+      	margin:.8%; 
+      	padding:0px 0px 0px 5px;
+      	font-family: Arial, Helvetica, Sans-serif;
+      }
+
+
+      h2{
+      	float:right;
+      	border-style: solid;
+      	border-color:black;
+      	border-width:1px;
+      	padding:5px;
+      	margin:0;
+      	background-color:#cae3e0;
+      	text-align:center;
+      	font-size:1.25em;
+      }
+
+</style>
   </head>
 
   <body>
     <header>
-        <h1>Module2 Solution </h1>
-      
-      @media (min-width:992px){
-      }
-      
-      @media (min-width:768px) and (max-width:991px){
-      }
-      
-      @media (max-width:767px){
-      }
-      
-        <h2></h2>
-      </div>
-    </header>
+        <h1>Our Menu</h1>
 
+        </header>
+      
+      <div class="row">
+      <section>
 
-      </div>
-    </div>
+      <h2>Chicken</h2>
+      <p>The chicken (Gallus gallus domesticus) is a type of domesticated fowl, a subspecies of the red junglefowl (Gallus gallus). Chickens are one of the most common and widespread domestic animals, with a total population of 23.7 billion as of 2018, up from more than 19 billion in 2011. There are more chickens in the world than any other bird or domesticated fowl. </p>
+  </section>
 
+  	<section>
+      <h2>Beef</h2>
+      <p>Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times. Beef is a source of protein and nutrients.Most beef skeletal muscle meat can be used as is by merely cutting into certain parts, such as roasts, short ribs or steak (filet mignon, sirloin steak, rump steak, rib steak, rib eye steak, hanger steak, etc.), while other cuts are processed </p>
+
+  </section>
+
+  <section id="sushi">
+      <h2>Sushi</h2>
+      <p>Sushi is traditionally made with medium-grain white rice, though it can be prepared with brown rice or short-grain rice. It is very often prepared with seafood, such as squid, eel, yellowtail, salmon, tuna or imitation crab meat. Many types of sushi are vegetarian. It is often served with pickled ginger (gari), wasabi, and soy sauce. Daikon radish or pickled daikon (takuan) are popular garnishes for the dish.</p>
+  </section>
+      
+
+     </div>
   
   </body>
 </html>
