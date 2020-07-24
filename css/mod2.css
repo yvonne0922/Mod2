@@ -9,14 +9,9 @@ h1{
       margin:10px;
 }
 
-/*.row{
-	width:100%;
-      margin:0;*/
-}
-
-body{
+/*body{
       margin:8px;
-}
+}*/
 
  @media (min-width:992px){
  	section{
@@ -38,9 +33,9 @@ body{
             margin:0;
  	}
 
-      .navbar-collapse.collapse {
-        display: none !important;
-    }
+      section{
+            margin:10px 10px !important;
+      }
       }
 
 
@@ -64,7 +59,7 @@ body{
       	border-width:1px;
       	padding:5px;
             width:130px;
-      	background-color:#cae3e0;
+      	background-color:#b798d6;
       	text-align:center;
       	font-size:1.25em;
             display:block;
@@ -78,7 +73,7 @@ body{
 
       h3{
             text-align:center;
-            font-size: 2em;
+            font-size: 1.5em;
       }
 
       .navbar-brand {
@@ -86,8 +81,9 @@ body{
 }
 
 .navbar-brand h1 { /* Restaurant name */
-  font-size: 2.5em;
+  font-size: 1.5em;
   text-transform: uppercase;
+  color:#3e1566;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
@@ -95,17 +91,24 @@ body{
   float:left;
 }
 
-.navbar-brand{
-      margin-right:150px;
+
+button {
+      position: absolute;
+      top: 15px;
+      right: 10px;
 }
 
-button{
-      margin-right:-50px;
+.navbar-toggler {
+      background-color: #652d9c;
+      border: 1px solid white;
 }
 
-
-.navbar-header button.navbar-toggle {
-  clear: both;
+.navbar{
+      background-color:#e6dfed;
+      margin:0px 0px !important;
 }
 
+a{
+      color:#652d9c;
+}
  
