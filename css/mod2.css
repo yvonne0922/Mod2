@@ -18,6 +18,9 @@ h1{
  		float:left;
             margin:0;
  	}
+       button{
+            display:none;
+      }
       }
       
       @media (min-width:768px) and (max-width:991px){
@@ -25,17 +28,17 @@ h1{
  		float:left;
             margin:0;
  	}
+       button{
+            display:none;
+      }
       }
       
       @media (max-width:767px){
       	section{
  		float:left;
             margin:0;
- 	}
-
-      section{
             margin:10px 10px !important;
-      }
+ 	}
       }
 
 
